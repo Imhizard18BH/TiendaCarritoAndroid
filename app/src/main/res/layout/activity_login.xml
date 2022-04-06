@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".actividades.MainActivity">
+
+    <fragment
+        android:id="@+id/barra_superior"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        class="co.edu.eam.miprimeraapp.fragmentos.BarraSuperiorFragment" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+
+        <TextView
+            android:layout_marginLeft="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:text="@string/login"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:text="@string/ingresarCorreo"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/txt_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/fondo_forms"
+            android:hint="@string/txtIngresarCorreo"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:theme="@style/CampoTextoBlanco"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:text="@string/ingresarContraseña"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/fondo_forms"
+            android:hint="@string/txtIngresarContraseña"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:theme="@style/CampoTextoBlanco"/>
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:text="Ingresar"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp"
+            android:text="@string/olvidoContraseña"
+            android:textSize="21sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</LinearLayout>

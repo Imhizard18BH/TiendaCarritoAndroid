@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_categoria">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:fontFamily">@font/font_awesome_6_free_solid_900</item>
+        <item name="android:background">@drawable/fondo_categoria</item>
+        <item name="android:backgroundTint">@color/yellow</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="txt_categoria">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ti_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="backgroundColor">@color/yellow</item>
+    </style>
+
+    <style name="CampoTextoBlanco" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#8C8989</item>
+        <item name="android:textColorHighlight">#F4C8C8</item>
+    </style>
+</resources>

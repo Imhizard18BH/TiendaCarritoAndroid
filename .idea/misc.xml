@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/drawable/fondo_busqueda.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/drawable/fondo_categoria.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/drawable/fondo_forms.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_carrito.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_compra.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_crear_producto.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_detalle_producto.xml" value="0.33" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_lista_productos.xml" value="0.33" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/activity_resultado_busqueda.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/fragment_barra_inferior.xml" value="0.17089755213055305" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/fragment_barra_superior.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/item_categoria.xml" value="0.33" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/layout/item_producto.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/menu/menu_productos.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_search.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/fondo_busqueda.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/fondo_categoria.xml" value="0.224" />
+        <entry key="app/src/main/res/drawable/fondo_forms.xml" value="0.157" />
+        <entry key="app/src/main/res/drawable/fondo_superior.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/activity_carrito.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/activity_compra.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_crear_producto.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_detalle_producto.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_lista_productos.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_photo.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_resultado_busqueda.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/barra_superior" value="0.33" />
+        <entry key="app/src/main/res/layout/barra_superior.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout/fragment_barra_superior.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/fragment_fragmento1.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/item_categoria.xml" value="0.4209245742092457" />
+        <entry key="app/src/main/res/layout/item_producto.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/menu/menu_productos.xml" value="0.36041666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.45" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
