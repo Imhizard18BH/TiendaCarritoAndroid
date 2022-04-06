@@ -35,7 +35,7 @@ class LoginActivity : AppCompatActivity() {
                 return true
             }
         }
-        Log.e("LoginActivity", "No Se pudo iniciar sesion correctamente")
+        Log.e("LoginActivity", "No se pudo iniciar sesion correctamente")
         return false
     }
 }
