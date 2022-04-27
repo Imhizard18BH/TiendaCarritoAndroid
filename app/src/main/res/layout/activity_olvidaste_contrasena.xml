@@ -16,8 +16,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/default_product">
+        android:layout_height="wrap_content">
     </ImageView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,11 +26,11 @@
 
 
         <TextView
-            android:layout_marginLeft="130dp"
+            android:layout_marginStart="65dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:padding="12dp"
-            android:text="@string/login"
+            android:text="@string/olvidoContraseña"
             android:textSize="21sp"
             android:textColor="@color/white"
             />
@@ -39,6 +38,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
             android:padding="12dp"
             android:text="@string/ingresarCorreo"
             android:textSize="21sp"
@@ -48,61 +48,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
             android:background="@drawable/fondo_forms"
             android:hint="@string/txtIngresarCorreo"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:theme="@style/CampoTextoBlanco"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:padding="12dp"
-            android:text="@string/ingresarContraseña"
-            android:textSize="21sp"
-            android:textColor="@color/white"
-            />
-        <EditText
-            android:id="@+id/txt_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:background="@drawable/fondo_forms"
-            android:hint="@string/txtIngresarContraseña"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
-            android:textAlignment="center"
-            android:theme="@style/CampoTextoBlanco"/>
+            android:theme="@style/CampoTextoBlanco" />
 
         <Button
             android:id="@+id/btnIngresar"
-            android:padding="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
             android:backgroundTint="@color/yellow"
-            android:text="Ingresar"
+            android:text="@string/correoRecuperacion"
             android:layout_marginTop="20dp"/>
-        <TextView
-            android:id="@+id/olvidasteContrasena"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="1dp"
-            android:text="@string/olvidoContraseña"
-            android:textSize="21sp"
-            android:textAlignment="center"
-            android:textColorLink="@color/yellow"
-            android:textColor="@color/white"
-            android:layout_marginTop="30dp" />
-        <TextView
-            android:id="@+id/registrarse"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="1dp"
-            android:textColorLink="@color/yellow"
-            android:text="@string/registrarse"
-            android:textSize="21sp"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:layout_marginTop="100dp" />
     </LinearLayout>
 </LinearLayout>

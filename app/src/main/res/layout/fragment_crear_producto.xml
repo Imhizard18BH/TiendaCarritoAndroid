@@ -7,22 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".actividades.CrearProductoActivity">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="30dp"
-    android:background="@color/black">
-    <fragment
-        android:id="@+id/barra_superior"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        class="co.edu.eam.miprimeraapp.fragmentos.BarraSuperiorFragment"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@color/black">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_nombre_layout"
-            style="@style/ti_layout"
-            android:layout_marginTop="30dp">
+            style="@style/ti_layout">
 
             <EditText
                 android:id="@+id/txt_nombre"
@@ -101,5 +95,5 @@
             android:layout_height="wrap_content"
             android:text="Crear Producto"
             android:backgroundTint="@color/yellow"/>
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>

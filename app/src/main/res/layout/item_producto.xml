@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:padding="15dp"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@color/black">
 
     <ImageView
         android:id="@+id/img_producto"
@@ -14,13 +15,14 @@
         android:id="@+id/titulo_producto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/img_producto"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-        android:textStyle="bold"
+        android:layout_toRightOf="@+id/img_producto"
+        android:text="Nombre producto"
         android:textSize="18sp"
-        android:text="Nombre producto"/>
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/precio_producto"
@@ -28,15 +30,16 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/titulo_producto"
         android:layout_alignLeft="@+id/titulo_producto"
-        android:textSize="18sp"
-        android:text="Precio producto"/>
+        android:text="Precio producto"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_below="@+id/img_producto"
         android:layout_marginTop="20dp"
-        android:background="#DFDFDF"/>
+        android:background="@color/black"/>
 
 
 </RelativeLayout>

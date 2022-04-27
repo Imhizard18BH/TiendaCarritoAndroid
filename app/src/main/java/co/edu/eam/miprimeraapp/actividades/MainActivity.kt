@@ -15,9 +15,13 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.GridLayoutManager
 import co.edu.eam.miprimeraapp.R
 import co.edu.eam.miprimeraapp.adapter.CategoriaAdapter
+import co.edu.eam.miprimeraapp.adapter.ViewPagerAdapter
 import co.edu.eam.miprimeraapp.data.Categorias
 import co.edu.eam.miprimeraapp.databinding.ActivityMainBinding
+import co.edu.eam.miprimeraapp.fragmentos.BarraSuperiorFragment
 import co.edu.eam.miprimeraapp.modelo.Categoria
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,6 +46,22 @@ class MainActivity : AppCompatActivity() {
                 Log.v("MainActivity", "${it.data?.extras?.getString("FOTO")}")
             }
         }
+
+        val fragmento=BarraSuperiorFragment()
+        val transaccion=supportFragmentManager.beginTransaction()
+        transaccion.replace(binding.barraSuperior.id,fragmento)
+        transaccion.commit()
+
+        binding.viewPagerMain.adapter = ViewPagerAdapter(this)
+        TabLayoutMediator(binding.tabs,binding.viewPagerMain){tab,pos->
+            when(pos){
+                0->tab.text="Main"
+                1->tab.text="Crear producto"
+                2->tab.text="Likes"
+                3->tab.text="Carrito"
+            }
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

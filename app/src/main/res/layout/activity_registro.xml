@@ -7,13 +7,21 @@
     android:orientation="vertical"
     android:paddingTop="20dp"
     android:padding="30dp"
-    tools:context=".actividades.RegistroActivity">
+    tools:context=".actividades.RegistroActivity"
+    android:background="@color/black">
+
+    <fragment
+        android:id="@+id/barra_superior"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        class="co.edu.eam.miprimeraapp.fragmentos.BarraSuperiorFragment"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_layout_cedula"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp">
 
         <EditText
             android:id="@+id/txt_cedula"
@@ -73,7 +81,8 @@
         android:id="@+id/btn_registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrarse" />
+        android:text="Registrarse"
+        android:backgroundTint="@color/yellow"/>
 
 
 </LinearLayout>

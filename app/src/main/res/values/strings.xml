@@ -16,7 +16,6 @@
     <string name="herramientas">Herramientas</string>
     <string name="ofertas">Ofertas</string>
     <string name="login">Iniciar sesión</string>
-    <string name="registro">Registrarse</string>
     <string name="img_producto">Imagen del producto</string>
     <string name="txt_nombre_producto">Nombre del producto</string>
     <string name="txt_precio_producto">Precio del producto</string>
@@ -27,6 +26,7 @@
     <string name="txtIngresarContraseña">Ingrese su contraseña</string>
     <string name="txtIngresarCorreo">Ingrese su correo</string>
     <string name="olvidoContraseña">Olvidaste tu contraseña?</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registrarse">No tienes cuenta? ¡Registrate!</string>
+    <string name="correoRecuperacion">Enviar contraseña de recuperación</string>
+    <string name="productos">Lista de productos</string>
 </resources>
