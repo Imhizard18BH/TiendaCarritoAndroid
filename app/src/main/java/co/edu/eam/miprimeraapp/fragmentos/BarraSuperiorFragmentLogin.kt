@@ -14,12 +14,12 @@ import co.edu.eam.miprimeraapp.actividades.CarritoActivity
 import co.edu.eam.miprimeraapp.actividades.LoginActivity
 import co.edu.eam.miprimeraapp.actividades.MainActivity
 import co.edu.eam.miprimeraapp.actividades.ResultadoBusquedaActivity
-import co.edu.eam.miprimeraapp.databinding.FragmentBarraSuperioLoginBinding
+import co.edu.eam.miprimeraapp.databinding.FragmentBarraSuperiorLoginBinding
 
 
 class BarraSuperiorFragmentLogin : Fragment() {
 
-    lateinit var binding: FragmentBarraSuperioLoginBinding
+    lateinit var binding: FragmentBarraSuperiorLoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +30,7 @@ class BarraSuperiorFragmentLogin : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentBarraSuperioLoginBinding.inflate(inflater, container, false)
+        binding = FragmentBarraSuperiorLoginBinding.inflate(inflater, container, false)
 
         Log.v("BarraSuperiorLoginFragment", "onCreateView()")
 

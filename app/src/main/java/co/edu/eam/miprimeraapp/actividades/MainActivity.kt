@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         transaccion.replace(binding.barraSuperior.id,fragmento)
         transaccion.commit()
 
-        binding.viewPagerMain.adapter = ViewPagerAdapter(this)
+      /*  binding.viewPagerMain.adapter = ViewPagerAdapter()
         TabLayoutMediator(binding.tabs,binding.viewPagerMain){tab,pos->
             when(pos){
                 0->tab.text="Main"
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                 2->tab.text="Likes"
                 3->tab.text="Carrito"
             }
-        }
+        }*/
 
     }
 

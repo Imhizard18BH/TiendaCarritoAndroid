@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/drawable/fondo_busqueda.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/drawable/fondo_categoria.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/drawable/fondo_forms.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/drawable/fondo_superior.xml" value="0.141" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/layout/activity_crear_producto.xml" value="0.17089755213055305" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/layout/activity_detalle_producto.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/layout/activity_olvidaste_contrasena.xml" value="0.17089755213055305" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/layout/fragment_barra_superior.xml" value="0.17089755213055305" />
+        <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main 1/app/src/main/res/layout/fragment_compras.xml" value="0.17089755213055305" />
         <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.141" />
         <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/drawable/fondo_busqueda.xml" value="0.141" />
         <entry key="..\:/Users/brahy/AndroidStudioProjects/tienda-android-main/app/src/main/res/drawable/fondo_categoria.xml" value="0.141" />

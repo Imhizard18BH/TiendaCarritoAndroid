@@ -35,6 +35,7 @@ class Producto (var codigo:String?, var precio:Float, var nombre:String?, var de
         return 0
     }
 
+
     companion object CREATOR : Parcelable.Creator<Producto> {
         override fun createFromParcel(parcel: Parcel): Producto {
             return Producto(parcel)

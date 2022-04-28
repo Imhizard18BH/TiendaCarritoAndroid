@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragmentos.DetalleProductoFragment">
+
+    <LinearLayout
+        android:id="@+id/parte_superior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/default_product"
+            android:contentDescription="@string/img_producto"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Nombre del producto"/>
+
+            <TextView
+                android:id="@+id/precio_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Precio del producto"/>
+
+            <TextView
+                android:id="@+id/descuento_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#00FF00"
+                android:visibility="invisible"
+                android:text="Descuento producto"/>
+
+            <TextView
+                android:id="@+id/nuevo_precio_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                android:text="Nuevo precio producto"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:strokeColor="#FF0000">
+
+        <TextView
+            android:id="@+id/desc_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este producto es para tal ......." />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
